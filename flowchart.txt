@@ -1,0 +1,44 @@
+ABNet Adaptive Balanced Network for Multiscale Object Detection in Remote Sensing Imagery
+1. Importing the packages
+2. Exploring the dataset - Satellite Object Image Detection Data
+3. Installing the packages required for yolov5 in Colab
+4. Processing the Data based on yolov5 model
+	- counting number of images
+	- reading images
+	- reading xmls files
+	- creating bb array
+	- creating the mask
+	- resizing the image
+5. Image Data Augmentation for FasterRCNN
+	- cropping the image
+	- rotate the image
+	- transforming the image to array
+6. Building the model in colab
+	- YOLOV5
+	- Faster-RCNN
+7. Training the model
+8. Building the model with YOLOv5
+9. Importing the packages
+10. Exploring the dataset - Satellite Object Image
+11. Processing the IMage using Keras
+	- using ImageDataGenerator 
+		- Re-scaling the Image
+		- Shear Transformation
+		- Zooming the Image
+		- Horizontal Flip 
+		- Reshaping the Image
+12. Extracting and SPlitting the data train and test set
+13. Building the model
+	- AlexNet Backbone of RICNN
+	- ZFNet Backbone of RICADO
+	- ResNet Backbone of ABNet
+	- ResNet101 Backbone of other model
+	- VGG16
+14. Training the model
+Flask Framework
+================
+15. Flask Framework with Sqlite for signup and signin
+16. User gives input as Image
+17. The given input preprocessed and with trained model is used for detection 
+18. The segmented each object and put bounding box 
+19. Final outcome is displayed
